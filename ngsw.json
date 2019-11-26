@@ -1,0 +1,74 @@
+{
+  "configVersion": 1,
+  "timestamp": 1574811934976,
+  "index": "/contador/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/contador/es2015-polyfills.3f4e8bcd7f6755d78863.js",
+        "/contador/favicon.ico",
+        "/contador/index.html",
+        "/contador/main.4dd9e379f8ea89ba0f69.js",
+        "/contador/polyfills.8bbb231b43165d65d357.js",
+        "/contador/runtime.26209474bfa8dc87a77c.js",
+        "/contador/styles.4a6fe1eb5e2e22426321.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/contador/assets/icons/icon-128x128.png",
+        "/contador/assets/icons/icon-144x144.png",
+        "/contador/assets/icons/icon-152x152.png",
+        "/contador/assets/icons/icon-192x192.png",
+        "/contador/assets/icons/icon-384x384.png",
+        "/contador/assets/icons/icon-512x512.png",
+        "/contador/assets/icons/icon-72x72.png",
+        "/contador/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/contador/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/contador/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/contador/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/contador/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/contador/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/contador/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/contador/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/contador/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/contador/es2015-polyfills.3f4e8bcd7f6755d78863.js": "9fa6f81adfc34dc84f2850c9fc9713766c376c09",
+    "/contador/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/contador/index.html": "f3a9d8f12d90d351c5e89763e22190fb69be13e1",
+    "/contador/main.4dd9e379f8ea89ba0f69.js": "47db01d54217e2413518397997a08b9834038627",
+    "/contador/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "/contador/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/contador/styles.4a6fe1eb5e2e22426321.css": "79a9ae3a016e6ac4646039f50f0f04ca79630cb7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
